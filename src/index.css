@@ -1,3 +1,123 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  width: 550px;
+  border: 0.1px solid #ccc;
+
 }
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: none;            
+  border-bottom: 0.1px solid #ccc; 
+  height: 0.1px;             
+  background: none;        
+  box-shadow: none;     
+  margin: 0;
+}
+
+.header-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  height: 55px;
+}
+
+.header-logo {
+  width: 20px;
+  margin-right: 6px;
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.travel-container {
+  flex: 0 0 auto;
+  display: flex;
+  width: 470px;
+  margin: 20px 0;
+}
+
+.travel-image {
+  width: 125px;
+  border-radius: 5px;
+}
+
+.text-content {
+  margin: 20px 0 20px 20px;
+}
+
+.location-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.location-box {
+  display: flex;
+}
+
+.location-icon {
+  margin-right: 5px;
+}
+
+.location-name {
+  letter-spacing: 1px;
+}
+
+.location-link {
+  margin-left: 30px;
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+.travel-title {
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.travel-date {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.travel-text {
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 4px;
+}
+
+
+/* 
+<div className='travel-container'>
+<div className='tavel-image-container'><img className='travel-image' src="../../src/assets/IMG_3168.jpeg" alt="" /></div>
+<div className='text-content'>
+  <div className='location-row'>
+    <div className='location-box'>
+      <div className='location-icon'>📍</div>
+      <div className='location-name'>深圳 Shenzhen</div>
+    </div>
+    <div className='location-link'>View on Google Maps</div>
+  </div>
+  <div className='travel-title'>travel-title</div>
+  <div className='travel-date'>travel-date</div>
+  <div className='travel-text'>travel-text</div>
+</div>
+</div> */
