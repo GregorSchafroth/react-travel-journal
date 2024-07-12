@@ -4,7 +4,7 @@ const Trip = (props) => {
   return (   
     <div>
       <div className='travel-container'>
-        <div className='tavel-image-container'><img className='travel-image' src={`../../src/assets/${props.item.imageUrl}`} alt="" /></div>
+        <div className='tavel-image-container'><img className='travel-image' src={props.item.imageUrl} alt="" /></div>
         <div className='text-content'>
           <div className='location-row'>
             <div className='location-box'>
